@@ -11,6 +11,8 @@
 | 参数名 | 类型 | 备注 |
 | ---- | --- | --- |
 | baoming_id | int | 业主报名id |
+| uid | int | 用户id |
+| token | string | 用户token |
 * data数据
 
 | 名称 | 类型 | 备注 |
@@ -34,6 +36,8 @@
 | fk_type | int | 反馈类型(0:无,1:量房,2:取消量房,3:量房改约,4:正常反馈) |
 | fk_content | string | 反馈内容 |
 | is_fwsc | int | 是否发放服务手册, 1为发放，0为未发放 注：如果已经发放了则不需要传递该参数 |
+| uid | int | 用户id |
+| token | string | 用户token |
 
 * allot_id 61
 * fk_type 1
@@ -48,5 +52,7 @@
 | 名称 | 类型 | 备注 |
 | ---- | --- | --- |
 | fk_type | list | 反馈类型配置 |
+| uid | int | 用户id |
+| token | string | 用户token |
 
 * {"status":200,"error_code":0,"data":{"fk_type":{"1":"\u91cf\u623f","2":"\u53d6\u6d88\u91cf\u623f","3":"\u91cf\u623f\u6539\u7ea6","4":"\u6b63\u5e38\u53cd\u9988"}},"message":"\u64cd\u4f5c\u6210\u529f"}
