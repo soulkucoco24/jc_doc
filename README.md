@@ -3,7 +3,6 @@
 ### http地址
 * 外测:http://prezx.admin.51youjuke.com
 * 正式:https://zx.youjuke.com/
-* 外测用的token和uid
 
 ### 1.获取建材预约时间分单列表
 * 接口地址: /actionapi/get\_jc\_allot\_baomings\_info
