@@ -3,6 +3,7 @@
 ### http地址
 * 外测:http://prezx.admin.51youjuke.com
 * 正式:https://zx.youjuke.com/
+* 外测用的token和uid
 
 ### 1.获取建材预约时间分单列表
 * 接口地址: /actionapi/get\_jc\_allot\_baomings\_info
@@ -23,6 +24,8 @@
 <font color="006400">e.g: 已经发放服务手册则不用显示服务手册选框</font>
 
 * baoming_id	4505470
+* uid	690
+* token	phlQqrwm59-pbO0rpaqb-lJOrL7Bga-fL6FamwLNq-1505713999
 * {"status":200,"error_code":0,"data":{"list":{"108":"1520611200","106":"1520179200"},"is_fwsc":"0"},"message":"\u64cd\u4f5c\u6210\u529f"}
 
 
@@ -43,6 +46,8 @@
 * fk_type 1
 * fk_content 123
 * is_fwsc 1
+* uid	690
+* token	phlQqrwm59-pbO0rpaqb-lJOrL7Bga-fL6FamwLNq-1505713999
 * {"status":200,"error_code":0,"message":"\u64cd\u4f5c\u6210\u529f"}
 
 ### 3.获取建材配置信息
@@ -60,4 +65,6 @@
 | ---- | --- | --- |
 | fk_type | list | 反馈类型配置 |
 
+* uid	690
+* token	phlQqrwm59-pbO0rpaqb-lJOrL7Bga-fL6FamwLNq-1505713999
 * {"status":200,"error_code":0,"data":{"fk_type":{"1":"\u91cf\u623f","2":"\u53d6\u6d88\u91cf\u623f","3":"\u91cf\u623f\u6539\u7ea6","4":"\u6b63\u5e38\u53cd\u9988"}},"message":"\u64cd\u4f5c\u6210\u529f"}
