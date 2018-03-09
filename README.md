@@ -22,8 +22,8 @@
 
 <font color="006400">e.g: 已经发放服务手册则不用显示服务手册选框</font>
 
-* baoming_id	4509733
-* {"status":200,"error_code":0,"data":{"list":{"61":"1517414400","82":"1517414400","56":"1517328000","81":"1517328000","62":"1517241600"},"is_fwsc":"0"},"message":"\u64cd\u4f5c\u6210\u529f"}
+* baoming_id	4505470
+* {"status":200,"error_code":0,"data":{"list":{"108":"1520611200","106":"1520179200"},"is_fwsc":"0"},"message":"\u64cd\u4f5c\u6210\u529f"}
 
 
 ### 2.设定反馈信息
@@ -47,12 +47,17 @@
 
 ### 3.获取建材配置信息
 * 接口地址: /actionapi/get\_jc\_config
+* 传递参数 
+
+| 参数名 | 类型 | 备注 |
+| ---- | --- | --- |
+| uid | int | 用户id |
+| token | string | 用户token |
+
 * data数据
 
 | 名称 | 类型 | 备注 |
 | ---- | --- | --- |
 | fk_type | list | 反馈类型配置 |
-| uid | int | 用户id |
-| token | string | 用户token |
 
 * {"status":200,"error_code":0,"data":{"fk_type":{"1":"\u91cf\u623f","2":"\u53d6\u6d88\u91cf\u623f","3":"\u91cf\u623f\u6539\u7ea6","4":"\u6b63\u5e38\u53cd\u9988"}},"message":"\u64cd\u4f5c\u6210\u529f"}
