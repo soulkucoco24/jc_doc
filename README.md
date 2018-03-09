@@ -26,7 +26,7 @@
 * baoming_id	4505470
 * uid	690
 * token	phlQqrwm59-pbO0rpaqb-lJOrL7Bga-fL6FamwLNq-1505713999
-* {"status":200,"error_code":0,"data":{"list":{"108":"1520611200","106":"1520179200"},"is_fwsc":"0"},"message":"\u64cd\u4f5c\u6210\u529f"}
+* {"status":200,"error_code":0,"data":{"list":[{"allot_id":91,"appoint_measure_time":"1517328000"},{"allot_id":89,"appoint_measure_time":"1517068800"}],"is_fwsc":"1"},"message":"\u64cd\u4f5c\u6210\u529f"}
 
 
 ### 2.设定反馈信息
@@ -67,4 +67,4 @@
 
 * uid	690
 * token	phlQqrwm59-pbO0rpaqb-lJOrL7Bga-fL6FamwLNq-1505713999
-* {"status":200,"error_code":0,"data":{"fk_type":{"1":"\u91cf\u623f","2":"\u53d6\u6d88\u91cf\u623f","3":"\u91cf\u623f\u6539\u7ea6","4":"\u6b63\u5e38\u53cd\u9988"}},"message":"\u64cd\u4f5c\u6210\u529f"}
+* {"status":200,"error_code":0,"data":{"fk_type":[{"id":1,"type":"\u91cf\u623f"},{"id":2,"type":"\u53d6\u6d88\u91cf\u623f"},{"id":3,"type":"\u91cf\u623f\u6539\u7ea6"},{"id":4,"type":"\u6b63\u5e38\u53cd\u9988"}]},"message":"\u64cd\u4f5c\u6210\u529f"}
