@@ -67,3 +67,24 @@
 * uid	690
 * token	phlQqrwm59-pbO0rpaqb-lJOrL7Bga-fL6FamwLNq-1505713999
 * {"status":200,"error_code":0,"data":{"fk_type":[{"id":1,"type":"\u91cf\u623f"},{"id":2,"type":"\u53d6\u6d88\u91cf\u623f"},{"id":3,"type":"\u91cf\u623f\u6539\u7ea6"},{"id":4,"type":"\u6b63\u5e38\u53cd\u9988"}]},"message":"\u64cd\u4f5c\u6210\u529f"}
+
+
+### 4.获取设计师号码
+* 接口地址: /actionapi/get\_jc\_des\_show\_number\_list
+* 传递参数 
+
+| 参数名 | 类型 | 备注 |
+| ---- | --- | --- |
+| allot_id | int | 分单id |
+| uid | int | 用户id |
+| token | string | 用户token |
+
+* data数据
+
+| 名称 | 类型 | 备注 |
+| ---- | --- | --- |
+
+* allot_id 41
+* uid	432
+* token	HJVtppGuov-67sPbiRYXl-oNaJB5RMEZ-9KhU3L985n-1520910572
+* {"status":200,"error_code":0,"data":[{"mobile":"17612186372","firm_name":"\u5546\u5bb6\u5168\u79f01xiu"},{"mobile":"17612186372","firm_name":"\u5546\u5bb6\u5168\u79f01xiu"}],"message":"\u64cd\u4f5c\u6210\u529f"}
